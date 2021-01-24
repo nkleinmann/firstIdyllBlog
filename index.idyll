@@ -1,0 +1,70 @@
+[meta title:"Why I Run" description:"The motivation blog for almost any runner" /]
+
+[Header
+  fullWidth:true
+  title:"Why I Run"
+  subtitle:"The motivation blog for almost any runner"
+  author:"Nicole Kleinmann"
+  authorLink:"https://github.com/nkleinmann"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff"
+   /]
+
+
+## Introduction
+```
+Running helps relieve stress and allows me to just be happier.
+
+How much do you enjoy running on a scale from 1-10? 
+
+(10 being I love it and run all the time, 0 being you will never catch me running)
+```
+
+[var name:"myVar" value:10 /]
+[Range value:myVar min:0 max:10 /]
+[Display value:myVar /]
+
+## Starting the journey
+
+```
+When I started running, I was hoping my enjoyment in running would be something like this:
+```
+// [Aside]
+//   [Chart type:"time" data:complaintsByDate /]
+//   [caption]Complaints sent to the CFPB each month[/caption]
+// [/Aside]
+
+// [Desmos equation:"y=2^x" /]
+```
+It was more like a piecewise function, with **good** and *bad* days
+
+* run
+* eat
+* sleep
+* repeat
+
+Please check out my [portfolio](https://www.nicolekleinmann.com/) 
+```
+
+// [var name:"func" value:`Math.sin(t)` /]
+// [var name:"domainStart" value:0 /]
+// [var name:"domainEnd" value:`2 * Math.PI` /]
+
+// [Chart
+//   equation:` (t) => func(t)`
+//   domain:`[domainStart, domainEnd]`
+//   samplePoints:1000 /]
+
+// [Button onClick:`func = Math.sin`]sin[/Button]
+// [Button onClick:`func = Math.cos`]cos[/Button]
+
+
+[Range min:0 max:10 value:value /]
+[Button]
+Click Me
+[/Button]
+
+
+
+
